@@ -7,5 +7,5 @@ Download:
 ----
 <a href="https://play.google.com/store/apps/details?id=com.tir38.android.gravityTestProject">
   <img alt="Android app on Google Play"
-       src="/images/brand/en_app_rgb_wo_60.png" />
+       src="play_store_assets/get_it_on_play_store_button.png" />
 </a>
