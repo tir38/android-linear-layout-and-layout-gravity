@@ -7,13 +7,34 @@ android {
     defaultConfig {
         applicationId "com.tir38.android.gravityTestProject"
         minSdkVersion 14
-        targetSdkVersion 14
+        targetSdkVersion 19
+
+        // set filename
+        applicationVariants.all { variant ->
+            def file = variant.outputFile
+            variant.outputFile = new File(file.parent, "linear_layout_and_layout_gravity.apk")
+        }
     }
 
     buildTypes {
         release {
+            // ProGuard
             runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+
+            // signing
+            if (project.hasProperty("LinearLayoutProject.signing")
+                    && new File(project.property("LinearLayoutProject.signing") + ".gradle").exists()) {
+                println 'calling outside build config...';
+                apply from: project.property("LinearLayoutProject.signing") + ".gradle";
+            }
+
+            // set filename
+            applicationVariants.all { variant ->
+                def file = variant.outputFile
+                variant.outputFile = new File(file.parent, file.name.replace(".apk", "-release.apk"))
+            }
+
         }
     }
 }

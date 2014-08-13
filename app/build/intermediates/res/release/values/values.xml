@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/jason/teaching/android%20course/sample%20projects%20to%20demo%20things/LinearLayoutLayoutGravity_gradle/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="layout_padding">5dp</dimen>
+    <!-- From: file:/Users/jason/teaching/android%20course/sample%20projects%20to%20demo%20things/LinearLayoutLayoutGravity_gradle/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">LinearLayout and layout_gravity</string>
+    <string name="button1">orientation = vertical\n + \nlayout_gravity = left, center, right</string>
+    <string name="button2">orientation = horizontal\n + \nlayout_gravity = top, center, bottom</string>
+    <string name="button3">orientation = horizontal\n  + \nlayout_gravity = left, center, right</string>
+
+</resources>
