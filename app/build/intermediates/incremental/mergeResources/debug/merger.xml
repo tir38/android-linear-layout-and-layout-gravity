@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="horizontal_linear_layout"
+                path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res/layout/horizontal_linear_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="horizontal_linear_layout_with_left_and_right_layout_gravity"
+                path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res/layout/horizontal_linear_layout_with_left_and_right_layout_gravity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="vertical_linear_layout"
+                path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res/layout/vertical_linear_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >LinearLayout and layout_gravity
+                </string>
+                <string name="button2" >orientation = horizontal\n + \nlayout_gravity = top, center, bottom
+                </string>
+                <string name="button3" >orientation = horizontal\n  + \nlayout_gravity = left, center, right
+                </string>
+                <string name="button1" >orientation = vertical\n + \nlayout_gravity = left, center, right
+                </string>
+            </file>
+            <file
+                path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="layout_padding" >5dp
+                </dimen>
+            </file>
+        </source>
+        <source path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/build/generated/res/rs/debug" />
+        <source path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/jason/teaching/android course/sample projects to demo things/LinearLayoutLayoutGravity_gradle/app/src/debug/res" />
+    </dataSet>
+
+</merger>

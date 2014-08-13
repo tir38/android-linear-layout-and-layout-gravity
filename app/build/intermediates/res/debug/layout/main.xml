@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:textSize="16dp"
+              android:layout_margin="5dp"
+              android:text="How does LinearLayout's orientation work with its children's 'layout_gravity'?"/>
+
+    <Button android:id="@+id/vertical_layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button1"/>
+
+    <Button android:id="@+id/horizontal_layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button2"/>
+
+    <Button android:id="@+id/horizontal_layout_with_left_and_right_layout_gravity_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button3"/>
+</LinearLayout>
+
+<!-- From: file:/Users/jason/teaching/android%20course/sample%20projects%20to%20demo%20things/LinearLayoutLayoutGravity_gradle/app/src/main/res/layout/main.xml -->
